@@ -20,3 +20,4 @@ while more_bidders:
       cls()
     elif ask_if_more == 'no':
       more_bidders = False
+    print(f'{names_n_bids["name"]} is our winner with a winning bid of ${names_n_bids["bid"]}!')
